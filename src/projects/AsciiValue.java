@@ -2,7 +2,7 @@ package projects;
 
 import java.util.Scanner;
 
-public class TwentyEight {
+public class AsciiValue {
     public static void main(String[] args) {
 
         //Write a program to Find a ASCII value of a Character
@@ -13,7 +13,7 @@ public class TwentyEight {
         System.out.println("ASCII value for " + c + " is " + (char)c);
         System.out.println("Enter your Character ");
         char a=in.next().charAt(0);
-        System.out.println("value for Your ASCII value " + a + " is " + +a);
+        System.out.println("value for Your ASCII value " + a + " is " + a);
 
     }
 }

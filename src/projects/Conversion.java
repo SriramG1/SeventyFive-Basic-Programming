@@ -2,7 +2,7 @@ package projects;
 
 import java.util.Scanner;
 
-public class Twentysix {
+public class Conversion {
     public static void main(String[] args) {
         //Convert km to miles:
 
