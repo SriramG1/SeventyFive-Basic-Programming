@@ -12,8 +12,6 @@ public class AsciiValue {
         int c= in.nextInt();
         System.out.println("ASCII value for " + c + " is " + (char)c);
         System.out.println("Enter your Character ");
-        char a=in.next().charAt(0);
-        System.out.println("value for Your ASCII value " + a + " is " + a);
 
     }
 }
