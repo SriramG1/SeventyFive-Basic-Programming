@@ -12,9 +12,9 @@ public class ArmstrongNumber {
         int n= in.nextInt();
         int temp=0;
         int temp2=n;
-        while(n!=0) // 1 5 3
+        while(n>0) // 1 6 3 4
         {
-            int rem=n%10;
+            int rem=n%10; // 4
             int a= (int) Math.pow(rem,3);
             temp+=a;
             n=n/10;
