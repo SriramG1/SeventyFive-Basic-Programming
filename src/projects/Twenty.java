@@ -9,7 +9,6 @@ public class Twenty {
         System.out.println("Enter the value of a :");
         int a=in.nextInt();
         int b=a++;
-
         System.out.println("a++ : "+b);
 
         System.out.println("Enter the value of a :");
