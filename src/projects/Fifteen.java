@@ -9,8 +9,8 @@ public class Fifteen {
         double a=in.nextFloat();
         double b=in.nextFloat();
         double c=in.nextFloat();
-        double x=b*b-4.0*a*c;
-        if (x>0.0) {
+        double x=b*b-4*a*c;
+        if (x>0) {
             double root1 =  (-b + Math.pow(x,0.5)) / (2 * a);
             double root2 =  (-b - Math.pow(x,0.5)) / (2 * a);
             System.out.println("Roots are " + root1 + " and " + root2);
@@ -20,7 +20,7 @@ public class Fifteen {
             System.out.println("Root is " + root);
         }
         else{
-            System.out.println("Roots are not Real");
+            System.out.println("Roots are imaginary");
         }
     }
 }
