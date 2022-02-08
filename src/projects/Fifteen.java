@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Fifteen {
     public static void main(String[] args) {
+        //program : 15
+        //Write a program to evaluate the polynomial equation:
+
         Scanner in=new Scanner(System.in);
         System.out.println("Enter the value of a , b and c : ");
         double a=in.nextFloat();
