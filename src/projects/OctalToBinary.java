@@ -7,7 +7,7 @@ public class OctalToBinary {
         String binary = "";
         int i = 0;
         while (i < octal.length()) {
-            char c = octal.charAt((int) i);
+            char c = octal.charAt(i);
             switch (c) {
                 case '0':
                     binary = binary + "000 ";
