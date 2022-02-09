@@ -12,7 +12,7 @@ public class MultiplyMatricesFunction {
            {
                for(int k=0;k<mul.length;k++)
                {
-                   mul[i][j]=mat1[i][k]*mat2[k][j];
+                   mul[i][j]+=mat1[i][k]*mat2[k][j];
                }
            }
        }
