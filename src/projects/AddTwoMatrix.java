@@ -55,7 +55,7 @@ public class AddTwoMatrix {
         {
             for (int j=0;j<column;j++)
             {
-                add[i][j]=matrix1[i][j]+matrix1[i][j];
+                add[i][j]=matrix1[i][j]+matrix2[i][j];
             }
         }
         System.out.println("Matrix 1 + Matrix 2 :");
