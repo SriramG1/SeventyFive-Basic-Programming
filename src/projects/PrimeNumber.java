@@ -11,13 +11,14 @@ public class PrimeNumber {
         System.out.println("Enter Your number : ");
         int number= in.nextInt();
         int count=0;
-        for(int i=1;i<=number;i++)
+        for(int i=2;i<number;i++)
         {
             if(number%i==0) {
                 count++;
+                break;
             }
         }
-        if(count==2)
+        if(count==0)
         {
             System.out.println(number+" is prime number");
         }
