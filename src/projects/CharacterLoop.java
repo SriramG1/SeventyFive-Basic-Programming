@@ -12,10 +12,10 @@ public class CharacterLoop {
         int on=in.nextInt();
         if(on==1)
         {
-        for(int i=65;i<=90;i++)
-        {
-            System.out.print((char)i+" ");
-        }
+            for(int i=65;i<=90;i++)
+            {
+                System.out.print((char)i+" ");
+            }
         }
     }
 }
