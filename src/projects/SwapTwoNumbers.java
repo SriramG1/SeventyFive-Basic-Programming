@@ -6,7 +6,7 @@ public class SwapTwoNumbers {
     public static void main(String[] args) {
 
         //Program to swap two numbers
-
+        //Time Complexity - O(1)
         Scanner in=new Scanner(System.in);
         System.out.println("Enter Two Numbers : ");
         int input1=in.nextInt();
