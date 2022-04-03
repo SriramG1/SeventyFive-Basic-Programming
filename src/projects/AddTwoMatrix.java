@@ -6,6 +6,7 @@ public class AddTwoMatrix {
     public static void main(String[] args) {
         //program : 65
         //Add two matrices :
+        //Time complexity - O(n^2)
         Scanner in=new Scanner(System.in);
         System.out.println("Enter Rows :");
         int rows=in.nextInt();
