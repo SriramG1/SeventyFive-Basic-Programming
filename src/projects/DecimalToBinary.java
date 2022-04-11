@@ -1,20 +1,19 @@
 package projects;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class DecimalToBinary {
     public static void binary2Decimal(int n){
-        int[] binaryNum =new int[100];
-        int i=0;
+        ArrayList<Integer> binaryNum= new ArrayList<>();
         while(n>0){
-            binaryNum [i] = n % 2;
+            binaryNum.add( n % 2);
             n = n / 2;
-            i++;
         }
-        for(int j=i-1;j>=0;j--)
-        {
-            System.out.print(binaryNum[j]);
-            System.out.print(" ");
+        Collections.reverse(binaryNum);
+        for(int k:binaryNum){
+            System.out.print(k+" ");
         }
     }
     public static void main(String[] args) {
